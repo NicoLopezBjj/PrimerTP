@@ -52,6 +52,12 @@ h2{
     border-radius: 8px;
     border: none;
 }
+
+button:hover{
+    transform: scale(1.2);
+    transition: transform .6s;
+}
+
 .buttonone{
     padding: 14px 28px;
 } 
@@ -77,12 +83,24 @@ h2{
     text-align: center;
     margin-top: 0;
     width: 100%;
+    display: inline-block;
+    position: relative; 
 }
+
+
 
 .linea{
     width: 25%;
     border-bottom: 1px solid gray;
     margin-bottom: auto;
+}
+
+.left{
+    margin-left: 25px;
+}
+
+.right{
+    margin-right: 25px;
 }
 
 .container{
@@ -149,7 +167,3 @@ h2{
     top: 40%;
 }
   
-/* armo muchas clases
-ubicacion de las cosas
-generar border
-las divs se pisan */
